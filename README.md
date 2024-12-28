@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Rust programming: using the `unwrap()` method on an `Option` without first checking if it contains a value (`Some`) or is empty (`None`).  Improper use of `unwrap()` can lead to runtime panics, causing your program to crash.  The `bug.rs` file shows the error, and `bugSolution.rs` provides a safe and corrected version.
